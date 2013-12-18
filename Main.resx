@@ -1,0 +1,2500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="menuStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="menuStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>648, 24</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuStrip.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.Name" xml:space="preserve">
+    <value>menuStrip</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="openModelToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+O</value>
+  </data>
+  <data name="openModelToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 22</value>
+  </data>
+  <data name="openModelToolStripMenuItem.Text" xml:space="preserve">
+    <value>Open model</value>
+  </data>
+  <data name="saveModelToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+S</value>
+  </data>
+  <data name="saveModelToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 22</value>
+  </data>
+  <data name="saveModelToolStripMenuItem.Text" xml:space="preserve">
+    <value>Save model</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 6</value>
+  </data>
+  <data name="exportPictureToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Maj+S</value>
+  </data>
+  <data name="exportPictureToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 22</value>
+  </data>
+  <data name="exportPictureToolStripMenuItem.Text" xml:space="preserve">
+    <value>Export picture</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>213, 6</value>
+  </data>
+  <data name="exitToolStripMenuItem.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Ctrl+Q</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>216, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 20</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 22</value>
+  </data>
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="frenchToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 22</value>
+  </data>
+  <data name="frenchToolStripMenuItem.Text" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="interrogationToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 20</value>
+  </data>
+  <data name="interrogationToolStripMenuItem.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>114, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="pictureBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 30</value>
+  </data>
+  <data name="pictureBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>300, 400</value>
+  </data>
+  <data name="pictureBox.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;pictureBox.Name" xml:space="preserve">
+    <value>pictureBox</value>
+  </data>
+  <data name="&gt;&gt;pictureBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabHair.Name" xml:space="preserve">
+    <value>tabHair</value>
+  </data>
+  <data name="&gt;&gt;tabHair.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabHair.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabHair.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabFace.Name" xml:space="preserve">
+    <value>tabFace</value>
+  </data>
+  <data name="&gt;&gt;tabFace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabFace.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabFace.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabBody.Name" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;tabBody.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabBody.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabBody.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tabAccessories.Name" xml:space="preserve">
+    <value>tabAccessories</value>
+  </data>
+  <data name="&gt;&gt;tabAccessories.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabAccessories.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabAccessories.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabParam.Name" xml:space="preserve">
+    <value>tabParam</value>
+  </data>
+  <data name="&gt;&gt;tabParam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabParam.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabParam.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tabControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 30</value>
+  </data>
+  <data name="tabControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>330, 403</value>
+  </data>
+  <data name="tabControl.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Name" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabControl.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabControl.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblHairLuminance.Name" xml:space="preserve">
+    <value>lblHairLuminance</value>
+  </data>
+  <data name="&gt;&gt;lblHairLuminance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHairLuminance.Parent" xml:space="preserve">
+    <value>tabHair</value>
+  </data>
+  <data name="&gt;&gt;lblHairLuminance.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbHairLuminance.Name" xml:space="preserve">
+    <value>tbHairLuminance</value>
+  </data>
+  <data name="&gt;&gt;tbHairLuminance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHairLuminance.Parent" xml:space="preserve">
+    <value>tabHair</value>
+  </data>
+  <data name="&gt;&gt;tbHairLuminance.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblHairColor.Name" xml:space="preserve">
+    <value>lblHairColor</value>
+  </data>
+  <data name="&gt;&gt;lblHairColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHairColor.Parent" xml:space="preserve">
+    <value>tabHair</value>
+  </data>
+  <data name="&gt;&gt;lblHairColor.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbHairColor.Name" xml:space="preserve">
+    <value>tbHairColor</value>
+  </data>
+  <data name="&gt;&gt;tbHairColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHairColor.Parent" xml:space="preserve">
+    <value>tabHair</value>
+  </data>
+  <data name="&gt;&gt;tbHairColor.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblHairBack.Name" xml:space="preserve">
+    <value>lblHairBack</value>
+  </data>
+  <data name="&gt;&gt;lblHairBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHairBack.Parent" xml:space="preserve">
+    <value>tabHair</value>
+  </data>
+  <data name="&gt;&gt;lblHairBack.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lstHairBack.Name" xml:space="preserve">
+    <value>lstHairBack</value>
+  </data>
+  <data name="&gt;&gt;lstHairBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstHairBack.Parent" xml:space="preserve">
+    <value>tabHair</value>
+  </data>
+  <data name="&gt;&gt;lstHairBack.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblHairFront.Name" xml:space="preserve">
+    <value>lblHairFront</value>
+  </data>
+  <data name="&gt;&gt;lblHairFront.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHairFront.Parent" xml:space="preserve">
+    <value>tabHair</value>
+  </data>
+  <data name="&gt;&gt;lblHairFront.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lstHairFront.Name" xml:space="preserve">
+    <value>lstHairFront</value>
+  </data>
+  <data name="&gt;&gt;lstHairFront.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstHairFront.Parent" xml:space="preserve">
+    <value>tabHair</value>
+  </data>
+  <data name="&gt;&gt;lstHairFront.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tabHair.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabHair.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabHair.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 377</value>
+  </data>
+  <data name="tabHair.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tabHair.Text" xml:space="preserve">
+    <value>tabHair</value>
+  </data>
+  <data name="&gt;&gt;tabHair.Name" xml:space="preserve">
+    <value>tabHair</value>
+  </data>
+  <data name="&gt;&gt;tabHair.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabHair.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabHair.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblHairLuminance.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblHairLuminance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblHairLuminance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 303</value>
+  </data>
+  <data name="lblHairLuminance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 13</value>
+  </data>
+  <data name="lblHairLuminance.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="lblHairLuminance.Text" xml:space="preserve">
+    <value>lblHairLuminance</value>
+  </data>
+  <data name="&gt;&gt;lblHairLuminance.Name" xml:space="preserve">
+    <value>lblHairLuminance</value>
+  </data>
+  <data name="&gt;&gt;lblHairLuminance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHairLuminance.Parent" xml:space="preserve">
+    <value>tabHair</value>
+  </data>
+  <data name="&gt;&gt;lblHairLuminance.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbHairLuminance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbHairLuminance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 319</value>
+  </data>
+  <data name="tbHairLuminance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 45</value>
+  </data>
+  <data name="tbHairLuminance.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;tbHairLuminance.Name" xml:space="preserve">
+    <value>tbHairLuminance</value>
+  </data>
+  <data name="&gt;&gt;tbHairLuminance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHairLuminance.Parent" xml:space="preserve">
+    <value>tabHair</value>
+  </data>
+  <data name="&gt;&gt;tbHairLuminance.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblHairColor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblHairColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 239</value>
+  </data>
+  <data name="lblHairColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="lblHairColor.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lblHairColor.Text" xml:space="preserve">
+    <value>lblHairColor</value>
+  </data>
+  <data name="&gt;&gt;lblHairColor.Name" xml:space="preserve">
+    <value>lblHairColor</value>
+  </data>
+  <data name="&gt;&gt;lblHairColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHairColor.Parent" xml:space="preserve">
+    <value>tabHair</value>
+  </data>
+  <data name="&gt;&gt;lblHairColor.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbHairColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbHairColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 255</value>
+  </data>
+  <data name="tbHairColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 45</value>
+  </data>
+  <data name="tbHairColor.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;tbHairColor.Name" xml:space="preserve">
+    <value>tbHairColor</value>
+  </data>
+  <data name="&gt;&gt;tbHairColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHairColor.Parent" xml:space="preserve">
+    <value>tabHair</value>
+  </data>
+  <data name="&gt;&gt;tbHairColor.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblHairBack.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblHairBack.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblHairBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 8</value>
+  </data>
+  <data name="lblHairBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="lblHairBack.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblHairBack.Text" xml:space="preserve">
+    <value>lblHairBack</value>
+  </data>
+  <data name="&gt;&gt;lblHairBack.Name" xml:space="preserve">
+    <value>lblHairBack</value>
+  </data>
+  <data name="&gt;&gt;lblHairBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHairBack.Parent" xml:space="preserve">
+    <value>tabHair</value>
+  </data>
+  <data name="&gt;&gt;lblHairBack.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lstHairBack.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 24</value>
+  </data>
+  <data name="lstHairBack.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 212</value>
+  </data>
+  <data name="lstHairBack.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lstHairBack.Name" xml:space="preserve">
+    <value>lstHairBack</value>
+  </data>
+  <data name="&gt;&gt;lstHairBack.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstHairBack.Parent" xml:space="preserve">
+    <value>tabHair</value>
+  </data>
+  <data name="&gt;&gt;lstHairBack.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblHairFront.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblHairFront.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblHairFront.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 8</value>
+  </data>
+  <data name="lblHairFront.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 13</value>
+  </data>
+  <data name="lblHairFront.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblHairFront.Text" xml:space="preserve">
+    <value>lblHairFront</value>
+  </data>
+  <data name="&gt;&gt;lblHairFront.Name" xml:space="preserve">
+    <value>lblHairFront</value>
+  </data>
+  <data name="&gt;&gt;lblHairFront.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHairFront.Parent" xml:space="preserve">
+    <value>tabHair</value>
+  </data>
+  <data name="&gt;&gt;lblHairFront.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lstHairFront.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 24</value>
+  </data>
+  <data name="lstHairFront.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 212</value>
+  </data>
+  <data name="lstHairFront.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lstHairFront.Name" xml:space="preserve">
+    <value>lstHairFront</value>
+  </data>
+  <data name="&gt;&gt;lstHairFront.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstHairFront.Parent" xml:space="preserve">
+    <value>tabHair</value>
+  </data>
+  <data name="&gt;&gt;lstHairFront.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblEyesLuminance.Name" xml:space="preserve">
+    <value>lblEyesLuminance</value>
+  </data>
+  <data name="&gt;&gt;lblEyesLuminance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEyesLuminance.Parent" xml:space="preserve">
+    <value>tabFace</value>
+  </data>
+  <data name="&gt;&gt;lblEyesLuminance.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbEyesLuminance.Name" xml:space="preserve">
+    <value>tbEyesLuminance</value>
+  </data>
+  <data name="&gt;&gt;tbEyesLuminance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbEyesLuminance.Parent" xml:space="preserve">
+    <value>tabFace</value>
+  </data>
+  <data name="&gt;&gt;tbEyesLuminance.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblEyesColor.Name" xml:space="preserve">
+    <value>lblEyesColor</value>
+  </data>
+  <data name="&gt;&gt;lblEyesColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEyesColor.Parent" xml:space="preserve">
+    <value>tabFace</value>
+  </data>
+  <data name="&gt;&gt;lblEyesColor.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbEyesColor.Name" xml:space="preserve">
+    <value>tbEyesColor</value>
+  </data>
+  <data name="&gt;&gt;tbEyesColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbEyesColor.Parent" xml:space="preserve">
+    <value>tabFace</value>
+  </data>
+  <data name="&gt;&gt;tbEyesColor.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblFace.Name" xml:space="preserve">
+    <value>lblFace</value>
+  </data>
+  <data name="&gt;&gt;lblFace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFace.Parent" xml:space="preserve">
+    <value>tabFace</value>
+  </data>
+  <data name="&gt;&gt;lblFace.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lstFace.Name" xml:space="preserve">
+    <value>lstFace</value>
+  </data>
+  <data name="&gt;&gt;lstFace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstFace.Parent" xml:space="preserve">
+    <value>tabFace</value>
+  </data>
+  <data name="&gt;&gt;lstFace.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblEyes.Name" xml:space="preserve">
+    <value>lblEyes</value>
+  </data>
+  <data name="&gt;&gt;lblEyes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEyes.Parent" xml:space="preserve">
+    <value>tabFace</value>
+  </data>
+  <data name="&gt;&gt;lblEyes.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lstEyes.Name" xml:space="preserve">
+    <value>lstEyes</value>
+  </data>
+  <data name="&gt;&gt;lstEyes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstEyes.Parent" xml:space="preserve">
+    <value>tabFace</value>
+  </data>
+  <data name="&gt;&gt;lstEyes.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tabFace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabFace.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabFace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 377</value>
+  </data>
+  <data name="tabFace.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tabFace.Text" xml:space="preserve">
+    <value>tabFace</value>
+  </data>
+  <data name="&gt;&gt;tabFace.Name" xml:space="preserve">
+    <value>tabFace</value>
+  </data>
+  <data name="&gt;&gt;tabFace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabFace.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabFace.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblEyesLuminance.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEyesLuminance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEyesLuminance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 303</value>
+  </data>
+  <data name="lblEyesLuminance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 13</value>
+  </data>
+  <data name="lblEyesLuminance.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="lblEyesLuminance.Text" xml:space="preserve">
+    <value>lblEyesLuminance</value>
+  </data>
+  <data name="&gt;&gt;lblEyesLuminance.Name" xml:space="preserve">
+    <value>lblEyesLuminance</value>
+  </data>
+  <data name="&gt;&gt;lblEyesLuminance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEyesLuminance.Parent" xml:space="preserve">
+    <value>tabFace</value>
+  </data>
+  <data name="&gt;&gt;lblEyesLuminance.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbEyesLuminance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbEyesLuminance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 319</value>
+  </data>
+  <data name="tbEyesLuminance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 45</value>
+  </data>
+  <data name="tbEyesLuminance.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;tbEyesLuminance.Name" xml:space="preserve">
+    <value>tbEyesLuminance</value>
+  </data>
+  <data name="&gt;&gt;tbEyesLuminance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbEyesLuminance.Parent" xml:space="preserve">
+    <value>tabFace</value>
+  </data>
+  <data name="&gt;&gt;tbEyesLuminance.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblEyesColor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEyesColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEyesColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 239</value>
+  </data>
+  <data name="lblEyesColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
+  </data>
+  <data name="lblEyesColor.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="lblEyesColor.Text" xml:space="preserve">
+    <value>lblEyesColor</value>
+  </data>
+  <data name="&gt;&gt;lblEyesColor.Name" xml:space="preserve">
+    <value>lblEyesColor</value>
+  </data>
+  <data name="&gt;&gt;lblEyesColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEyesColor.Parent" xml:space="preserve">
+    <value>tabFace</value>
+  </data>
+  <data name="&gt;&gt;lblEyesColor.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbEyesColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbEyesColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 255</value>
+  </data>
+  <data name="tbEyesColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>306, 45</value>
+  </data>
+  <data name="tbEyesColor.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;tbEyesColor.Name" xml:space="preserve">
+    <value>tbEyesColor</value>
+  </data>
+  <data name="&gt;&gt;tbEyesColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbEyesColor.Parent" xml:space="preserve">
+    <value>tabFace</value>
+  </data>
+  <data name="&gt;&gt;tbEyesColor.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblFace.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFace.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 8</value>
+  </data>
+  <data name="lblFace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="lblFace.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblFace.Text" xml:space="preserve">
+    <value>lblFace</value>
+  </data>
+  <data name="&gt;&gt;lblFace.Name" xml:space="preserve">
+    <value>lblFace</value>
+  </data>
+  <data name="&gt;&gt;lblFace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFace.Parent" xml:space="preserve">
+    <value>tabFace</value>
+  </data>
+  <data name="&gt;&gt;lblFace.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lstFace.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 24</value>
+  </data>
+  <data name="lstFace.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 212</value>
+  </data>
+  <data name="lstFace.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lstFace.Name" xml:space="preserve">
+    <value>lstFace</value>
+  </data>
+  <data name="&gt;&gt;lstFace.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstFace.Parent" xml:space="preserve">
+    <value>tabFace</value>
+  </data>
+  <data name="&gt;&gt;lstFace.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblEyes.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEyes.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEyes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 8</value>
+  </data>
+  <data name="lblEyes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 13</value>
+  </data>
+  <data name="lblEyes.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblEyes.Text" xml:space="preserve">
+    <value>lblEyes</value>
+  </data>
+  <data name="&gt;&gt;lblEyes.Name" xml:space="preserve">
+    <value>lblEyes</value>
+  </data>
+  <data name="&gt;&gt;lblEyes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEyes.Parent" xml:space="preserve">
+    <value>tabFace</value>
+  </data>
+  <data name="&gt;&gt;lblEyes.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lstEyes.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 24</value>
+  </data>
+  <data name="lstEyes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 212</value>
+  </data>
+  <data name="lstEyes.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lstEyes.Name" xml:space="preserve">
+    <value>lstEyes</value>
+  </data>
+  <data name="&gt;&gt;lstEyes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstEyes.Parent" xml:space="preserve">
+    <value>tabFace</value>
+  </data>
+  <data name="&gt;&gt;lstEyes.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblClothesLuminance.Name" xml:space="preserve">
+    <value>lblClothesLuminance</value>
+  </data>
+  <data name="&gt;&gt;lblClothesLuminance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblClothesLuminance.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;lblClothesLuminance.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tbClothesLuminance.Name" xml:space="preserve">
+    <value>tbClothesLuminance</value>
+  </data>
+  <data name="&gt;&gt;tbClothesLuminance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbClothesLuminance.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;tbClothesLuminance.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblClothesColor.Name" xml:space="preserve">
+    <value>lblClothesColor</value>
+  </data>
+  <data name="&gt;&gt;lblClothesColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblClothesColor.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;lblClothesColor.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tbClothesColor.Name" xml:space="preserve">
+    <value>tbClothesColor</value>
+  </data>
+  <data name="&gt;&gt;tbClothesColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbClothesColor.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;tbClothesColor.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblBodyLuminance.Name" xml:space="preserve">
+    <value>lblBodyLuminance</value>
+  </data>
+  <data name="&gt;&gt;lblBodyLuminance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBodyLuminance.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;lblBodyLuminance.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tbBodyLuminance.Name" xml:space="preserve">
+    <value>tbBodyLuminance</value>
+  </data>
+  <data name="&gt;&gt;tbBodyLuminance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbBodyLuminance.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;tbBodyLuminance.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblBodyColor.Name" xml:space="preserve">
+    <value>lblBodyColor</value>
+  </data>
+  <data name="&gt;&gt;lblBodyColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBodyColor.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;lblBodyColor.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tbBodyColor.Name" xml:space="preserve">
+    <value>tbBodyColor</value>
+  </data>
+  <data name="&gt;&gt;tbBodyColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbBodyColor.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;tbBodyColor.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblBody.Name" xml:space="preserve">
+    <value>lblBody</value>
+  </data>
+  <data name="&gt;&gt;lblBody.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBody.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;lblBody.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lstBody.Name" xml:space="preserve">
+    <value>lstBody</value>
+  </data>
+  <data name="&gt;&gt;lstBody.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstBody.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;lstBody.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblHead.Name" xml:space="preserve">
+    <value>lblHead</value>
+  </data>
+  <data name="&gt;&gt;lblHead.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHead.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;lblHead.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lstHead.Name" xml:space="preserve">
+    <value>lstHead</value>
+  </data>
+  <data name="&gt;&gt;lstHead.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstHead.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;lstHead.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="tabBody.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabBody.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabBody.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 377</value>
+  </data>
+  <data name="tabBody.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tabBody.Text" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;tabBody.Name" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;tabBody.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabBody.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabBody.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblClothesLuminance.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblClothesLuminance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblClothesLuminance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 303</value>
+  </data>
+  <data name="lblClothesLuminance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 13</value>
+  </data>
+  <data name="lblClothesLuminance.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="lblClothesLuminance.Text" xml:space="preserve">
+    <value>lblClothesLuminance</value>
+  </data>
+  <data name="&gt;&gt;lblClothesLuminance.Name" xml:space="preserve">
+    <value>lblClothesLuminance</value>
+  </data>
+  <data name="&gt;&gt;lblClothesLuminance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblClothesLuminance.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;lblClothesLuminance.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbClothesLuminance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbClothesLuminance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 319</value>
+  </data>
+  <data name="tbClothesLuminance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 45</value>
+  </data>
+  <data name="tbClothesLuminance.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="&gt;&gt;tbClothesLuminance.Name" xml:space="preserve">
+    <value>tbClothesLuminance</value>
+  </data>
+  <data name="&gt;&gt;tbClothesLuminance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbClothesLuminance.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;tbClothesLuminance.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblClothesColor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblClothesColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblClothesColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 239</value>
+  </data>
+  <data name="lblClothesColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 13</value>
+  </data>
+  <data name="lblClothesColor.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="lblClothesColor.Text" xml:space="preserve">
+    <value>lblClothesColor</value>
+  </data>
+  <data name="&gt;&gt;lblClothesColor.Name" xml:space="preserve">
+    <value>lblClothesColor</value>
+  </data>
+  <data name="&gt;&gt;lblClothesColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblClothesColor.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;lblClothesColor.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tbClothesColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbClothesColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 255</value>
+  </data>
+  <data name="tbClothesColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 45</value>
+  </data>
+  <data name="tbClothesColor.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="&gt;&gt;tbClothesColor.Name" xml:space="preserve">
+    <value>tbClothesColor</value>
+  </data>
+  <data name="&gt;&gt;tbClothesColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbClothesColor.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;tbClothesColor.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblBodyLuminance.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBodyLuminance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblBodyLuminance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 303</value>
+  </data>
+  <data name="lblBodyLuminance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 13</value>
+  </data>
+  <data name="lblBodyLuminance.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="lblBodyLuminance.Text" xml:space="preserve">
+    <value>lblBodyLuminance</value>
+  </data>
+  <data name="&gt;&gt;lblBodyLuminance.Name" xml:space="preserve">
+    <value>lblBodyLuminance</value>
+  </data>
+  <data name="&gt;&gt;lblBodyLuminance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBodyLuminance.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;lblBodyLuminance.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tbBodyLuminance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbBodyLuminance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 319</value>
+  </data>
+  <data name="tbBodyLuminance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 45</value>
+  </data>
+  <data name="tbBodyLuminance.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="&gt;&gt;tbBodyLuminance.Name" xml:space="preserve">
+    <value>tbBodyLuminance</value>
+  </data>
+  <data name="&gt;&gt;tbBodyLuminance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbBodyLuminance.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;tbBodyLuminance.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblBodyColor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBodyColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblBodyColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 239</value>
+  </data>
+  <data name="lblBodyColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="lblBodyColor.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="lblBodyColor.Text" xml:space="preserve">
+    <value>lblBodyColor</value>
+  </data>
+  <data name="&gt;&gt;lblBodyColor.Name" xml:space="preserve">
+    <value>lblBodyColor</value>
+  </data>
+  <data name="&gt;&gt;lblBodyColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBodyColor.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;lblBodyColor.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tbBodyColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbBodyColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 255</value>
+  </data>
+  <data name="tbBodyColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 45</value>
+  </data>
+  <data name="tbBodyColor.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;tbBodyColor.Name" xml:space="preserve">
+    <value>tbBodyColor</value>
+  </data>
+  <data name="&gt;&gt;tbBodyColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbBodyColor.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;tbBodyColor.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblBody.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblBody.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblBody.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 8</value>
+  </data>
+  <data name="lblBody.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="lblBody.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblBody.Text" xml:space="preserve">
+    <value>lblBody</value>
+  </data>
+  <data name="&gt;&gt;lblBody.Name" xml:space="preserve">
+    <value>lblBody</value>
+  </data>
+  <data name="&gt;&gt;lblBody.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBody.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;lblBody.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lstBody.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 24</value>
+  </data>
+  <data name="lstBody.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 212</value>
+  </data>
+  <data name="lstBody.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;lstBody.Name" xml:space="preserve">
+    <value>lstBody</value>
+  </data>
+  <data name="&gt;&gt;lstBody.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstBody.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;lstBody.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblHead.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblHead.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblHead.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 8</value>
+  </data>
+  <data name="lblHead.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 13</value>
+  </data>
+  <data name="lblHead.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblHead.Text" xml:space="preserve">
+    <value>lblHead</value>
+  </data>
+  <data name="&gt;&gt;lblHead.Name" xml:space="preserve">
+    <value>lblHead</value>
+  </data>
+  <data name="&gt;&gt;lblHead.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblHead.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;lblHead.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lstHead.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 24</value>
+  </data>
+  <data name="lstHead.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 212</value>
+  </data>
+  <data name="lstHead.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;lstHead.Name" xml:space="preserve">
+    <value>lstHead</value>
+  </data>
+  <data name="&gt;&gt;lstHead.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstHead.Parent" xml:space="preserve">
+    <value>tabBody</value>
+  </data>
+  <data name="&gt;&gt;lstHead.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;lstViewAccessoriesSelected.Name" xml:space="preserve">
+    <value>lstViewAccessoriesSelected</value>
+  </data>
+  <data name="&gt;&gt;lstViewAccessoriesSelected.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstViewAccessoriesSelected.Parent" xml:space="preserve">
+    <value>tabAccessories</value>
+  </data>
+  <data name="&gt;&gt;lstViewAccessoriesSelected.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btRemoveAllAccessories.Name" xml:space="preserve">
+    <value>btRemoveAllAccessories</value>
+  </data>
+  <data name="&gt;&gt;btRemoveAllAccessories.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btRemoveAllAccessories.Parent" xml:space="preserve">
+    <value>tabAccessories</value>
+  </data>
+  <data name="&gt;&gt;btRemoveAllAccessories.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblDragDropHelp.Name" xml:space="preserve">
+    <value>lblDragDropHelp</value>
+  </data>
+  <data name="&gt;&gt;lblDragDropHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDragDropHelp.Parent" xml:space="preserve">
+    <value>tabAccessories</value>
+  </data>
+  <data name="&gt;&gt;lblDragDropHelp.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoryLuminance.Name" xml:space="preserve">
+    <value>lblAccessoryLuminance</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoryLuminance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoryLuminance.Parent" xml:space="preserve">
+    <value>tabAccessories</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoryLuminance.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tbAccessoryLuminance.Name" xml:space="preserve">
+    <value>tbAccessoryLuminance</value>
+  </data>
+  <data name="&gt;&gt;tbAccessoryLuminance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbAccessoryLuminance.Parent" xml:space="preserve">
+    <value>tabAccessories</value>
+  </data>
+  <data name="&gt;&gt;tbAccessoryLuminance.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoryColor.Name" xml:space="preserve">
+    <value>lblAccessoryColor</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoryColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoryColor.Parent" xml:space="preserve">
+    <value>tabAccessories</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoryColor.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tbAccessoryColor.Name" xml:space="preserve">
+    <value>tbAccessoryColor</value>
+  </data>
+  <data name="&gt;&gt;tbAccessoryColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbAccessoryColor.Parent" xml:space="preserve">
+    <value>tabAccessories</value>
+  </data>
+  <data name="&gt;&gt;tbAccessoryColor.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoriesSelected.Name" xml:space="preserve">
+    <value>lblAccessoriesSelected</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoriesSelected.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoriesSelected.Parent" xml:space="preserve">
+    <value>tabAccessories</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoriesSelected.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblAccessories.Name" xml:space="preserve">
+    <value>lblAccessories</value>
+  </data>
+  <data name="&gt;&gt;lblAccessories.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAccessories.Parent" xml:space="preserve">
+    <value>tabAccessories</value>
+  </data>
+  <data name="&gt;&gt;lblAccessories.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lstAccessories.Name" xml:space="preserve">
+    <value>lstAccessories</value>
+  </data>
+  <data name="&gt;&gt;lstAccessories.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstAccessories.Parent" xml:space="preserve">
+    <value>tabAccessories</value>
+  </data>
+  <data name="&gt;&gt;lstAccessories.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tabAccessories.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabAccessories.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabAccessories.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 377</value>
+  </data>
+  <data name="tabAccessories.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tabAccessories.Text" xml:space="preserve">
+    <value>tabAccessories</value>
+  </data>
+  <data name="&gt;&gt;tabAccessories.Name" xml:space="preserve">
+    <value>tabAccessories</value>
+  </data>
+  <data name="&gt;&gt;tabAccessories.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabAccessories.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabAccessories.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lstViewAccessoriesSelected.Location" type="System.Drawing.Point, System.Drawing">
+    <value>165, 24</value>
+  </data>
+  <data name="lstViewAccessoriesSelected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 212</value>
+  </data>
+  <data name="lstViewAccessoriesSelected.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="&gt;&gt;lstViewAccessoriesSelected.Name" xml:space="preserve">
+    <value>lstViewAccessoriesSelected</value>
+  </data>
+  <data name="&gt;&gt;lstViewAccessoriesSelected.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstViewAccessoriesSelected.Parent" xml:space="preserve">
+    <value>tabAccessories</value>
+  </data>
+  <data name="&gt;&gt;lstViewAccessoriesSelected.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="colAccessoryName.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="colAccessoryName.Width" type="System.Int32, mscorlib">
+    <value>106</value>
+  </data>
+  <data name="colAccessoryColor.Text" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="colAccessoryColor.Width" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="colAccessoryLuminance.Text" xml:space="preserve">
+    <value>Luminance</value>
+  </data>
+  <data name="colAccessoryLuminance.Width" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="btRemoveAllAccessories.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 341</value>
+  </data>
+  <data name="btRemoveAllAccessories.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 23</value>
+  </data>
+  <data name="btRemoveAllAccessories.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="btRemoveAllAccessories.Text" xml:space="preserve">
+    <value>btRemoveAllAccessories</value>
+  </data>
+  <data name="&gt;&gt;btRemoveAllAccessories.Name" xml:space="preserve">
+    <value>btRemoveAllAccessories</value>
+  </data>
+  <data name="&gt;&gt;btRemoveAllAccessories.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btRemoveAllAccessories.Parent" xml:space="preserve">
+    <value>tabAccessories</value>
+  </data>
+  <data name="&gt;&gt;btRemoveAllAccessories.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblDragDropHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 243</value>
+  </data>
+  <data name="lblDragDropHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 95</value>
+  </data>
+  <data name="lblDragDropHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="lblDragDropHelp.Text" xml:space="preserve">
+    <value>lblDragDropHelp</value>
+  </data>
+  <data name="&gt;&gt;lblDragDropHelp.Name" xml:space="preserve">
+    <value>lblDragDropHelp</value>
+  </data>
+  <data name="&gt;&gt;lblDragDropHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDragDropHelp.Parent" xml:space="preserve">
+    <value>tabAccessories</value>
+  </data>
+  <data name="&gt;&gt;lblDragDropHelp.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblAccessoryLuminance.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAccessoryLuminance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAccessoryLuminance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 303</value>
+  </data>
+  <data name="lblAccessoryLuminance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 13</value>
+  </data>
+  <data name="lblAccessoryLuminance.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="lblAccessoryLuminance.Text" xml:space="preserve">
+    <value>lblAccessoryLuminance</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoryLuminance.Name" xml:space="preserve">
+    <value>lblAccessoryLuminance</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoryLuminance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoryLuminance.Parent" xml:space="preserve">
+    <value>tabAccessories</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoryLuminance.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbAccessoryLuminance.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbAccessoryLuminance.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbAccessoryLuminance.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 319</value>
+  </data>
+  <data name="tbAccessoryLuminance.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 45</value>
+  </data>
+  <data name="tbAccessoryLuminance.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="&gt;&gt;tbAccessoryLuminance.Name" xml:space="preserve">
+    <value>tbAccessoryLuminance</value>
+  </data>
+  <data name="&gt;&gt;tbAccessoryLuminance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbAccessoryLuminance.Parent" xml:space="preserve">
+    <value>tabAccessories</value>
+  </data>
+  <data name="&gt;&gt;tbAccessoryLuminance.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblAccessoryColor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAccessoryColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAccessoryColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 239</value>
+  </data>
+  <data name="lblAccessoryColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="lblAccessoryColor.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="lblAccessoryColor.Text" xml:space="preserve">
+    <value>lblAccessoryColor</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoryColor.Name" xml:space="preserve">
+    <value>lblAccessoryColor</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoryColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoryColor.Parent" xml:space="preserve">
+    <value>tabAccessories</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoryColor.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tbAccessoryColor.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbAccessoryColor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbAccessoryColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 255</value>
+  </data>
+  <data name="tbAccessoryColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 45</value>
+  </data>
+  <data name="tbAccessoryColor.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="&gt;&gt;tbAccessoryColor.Name" xml:space="preserve">
+    <value>tbAccessoryColor</value>
+  </data>
+  <data name="&gt;&gt;tbAccessoryColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbAccessoryColor.Parent" xml:space="preserve">
+    <value>tabAccessories</value>
+  </data>
+  <data name="&gt;&gt;tbAccessoryColor.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblAccessoriesSelected.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAccessoriesSelected.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAccessoriesSelected.Location" type="System.Drawing.Point, System.Drawing">
+    <value>162, 8</value>
+  </data>
+  <data name="lblAccessoriesSelected.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 13</value>
+  </data>
+  <data name="lblAccessoriesSelected.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblAccessoriesSelected.Text" xml:space="preserve">
+    <value>lblAccessoriesSelected</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoriesSelected.Name" xml:space="preserve">
+    <value>lblAccessoriesSelected</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoriesSelected.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoriesSelected.Parent" xml:space="preserve">
+    <value>tabAccessories</value>
+  </data>
+  <data name="&gt;&gt;lblAccessoriesSelected.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblAccessories.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAccessories.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAccessories.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 8</value>
+  </data>
+  <data name="lblAccessories.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="lblAccessories.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblAccessories.Text" xml:space="preserve">
+    <value>lblAccessories</value>
+  </data>
+  <data name="&gt;&gt;lblAccessories.Name" xml:space="preserve">
+    <value>lblAccessories</value>
+  </data>
+  <data name="&gt;&gt;lblAccessories.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAccessories.Parent" xml:space="preserve">
+    <value>tabAccessories</value>
+  </data>
+  <data name="&gt;&gt;lblAccessories.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lstAccessories.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 24</value>
+  </data>
+  <data name="lstAccessories.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 212</value>
+  </data>
+  <data name="lstAccessories.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;lstAccessories.Name" xml:space="preserve">
+    <value>lstAccessories</value>
+  </data>
+  <data name="&gt;&gt;lstAccessories.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lstAccessories.Parent" xml:space="preserve">
+    <value>tabAccessories</value>
+  </data>
+  <data name="&gt;&gt;lstAccessories.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;chkBackTransparent.Name" xml:space="preserve">
+    <value>chkBackTransparent</value>
+  </data>
+  <data name="&gt;&gt;chkBackTransparent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkBackTransparent.Parent" xml:space="preserve">
+    <value>tabParam</value>
+  </data>
+  <data name="&gt;&gt;chkBackTransparent.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblBgColor.Name" xml:space="preserve">
+    <value>lblBgColor</value>
+  </data>
+  <data name="&gt;&gt;lblBgColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBgColor.Parent" xml:space="preserve">
+    <value>tabParam</value>
+  </data>
+  <data name="&gt;&gt;lblBgColor.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btBgColor.Name" xml:space="preserve">
+    <value>btBgColor</value>
+  </data>
+  <data name="&gt;&gt;btBgColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btBgColor.Parent" xml:space="preserve">
+    <value>tabParam</value>
+  </data>
+  <data name="&gt;&gt;btBgColor.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tabParam.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tabParam.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tabParam.Size" type="System.Drawing.Size, System.Drawing">
+    <value>322, 377</value>
+  </data>
+  <data name="tabParam.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="tabParam.Text" xml:space="preserve">
+    <value>tabParam</value>
+  </data>
+  <data name="&gt;&gt;tabParam.Name" xml:space="preserve">
+    <value>tabParam</value>
+  </data>
+  <data name="&gt;&gt;tabParam.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tabParam.Parent" xml:space="preserve">
+    <value>tabControl</value>
+  </data>
+  <data name="&gt;&gt;tabParam.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblBgColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 7</value>
+  </data>
+  <data name="lblBgColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 23</value>
+  </data>
+  <data name="lblBgColor.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblBgColor.Text" xml:space="preserve">
+    <value>lblBgColor</value>
+  </data>
+  <data name="&gt;&gt;lblBgColor.Name" xml:space="preserve">
+    <value>lblBgColor</value>
+  </data>
+  <data name="&gt;&gt;lblBgColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblBgColor.Parent" xml:space="preserve">
+    <value>tabParam</value>
+  </data>
+  <data name="&gt;&gt;lblBgColor.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btBgColor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 7</value>
+  </data>
+  <data name="btBgColor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 23</value>
+  </data>
+  <data name="btBgColor.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btBgColor.Text" xml:space="preserve">
+    <value>btBgColor</value>
+  </data>
+  <data name="&gt;&gt;btBgColor.Name" xml:space="preserve">
+    <value>btBgColor</value>
+  </data>
+  <data name="&gt;&gt;btBgColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btBgColor.Parent" xml:space="preserve">
+    <value>tabParam</value>
+  </data>
+  <data name="&gt;&gt;btBgColor.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="statusStrip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>506, 17</value>
+  </metadata>
+  <data name="statusStrip.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 436</value>
+  </data>
+  <data name="statusStrip.Size" type="System.Drawing.Size, System.Drawing">
+    <value>648, 22</value>
+  </data>
+  <data name="statusStrip.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="statusStrip.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Name" xml:space="preserve">
+    <value>statusStrip</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusStrip.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="toolStripStatusLabel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>10, 17</value>
+  </data>
+  <data name="toolStripStatusLabel1.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <metadata name="colorDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="savePngDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>124, 17</value>
+  </metadata>
+  <data name="savePngDialog.Filter" xml:space="preserve">
+    <value>PNG File (*.png)|*.png</value>
+  </data>
+  <metadata name="saveAgmDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>248, 17</value>
+  </metadata>
+  <data name="saveAgmDialog.Filter" xml:space="preserve">
+    <value>Anime Girl Model File (*.agm)|*.agm</value>
+  </data>
+  <metadata name="openAgmDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>376, 17</value>
+  </metadata>
+  <data name="openAgmDialog.Filter" xml:space="preserve">
+    <value>Anime Girl Model File (*.agm)|*.agm</value>
+  </data>
+  <data name="chkBackTransparent.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkBackTransparent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 37</value>
+  </data>
+  <data name="chkBackTransparent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 17</value>
+  </data>
+  <data name="chkBackTransparent.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkBackTransparent.Text" xml:space="preserve">
+    <value>chkBackTransparent</value>
+  </data>
+  <data name="&gt;&gt;chkBackTransparent.Name" xml:space="preserve">
+    <value>chkBackTransparent</value>
+  </data>
+  <data name="&gt;&gt;chkBackTransparent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkBackTransparent.Parent" xml:space="preserve">
+    <value>tabParam</value>
+  </data>
+  <data name="&gt;&gt;chkBackTransparent.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>648, 458</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAEBAAAAAAIABoBAAANgAAACAgAAAAACAAqBAAAJ4EAAAwMAAAAAAgAKglAABGFQAAKAAAABAA
+        AAAgAAAAAQAgAAAAAABABAAAAAAAAAAAAAAAAAAAAAAAAP///wH///8BUFBQDaGRtvnisq//xZaQ//Hn
+        7f/VlpT/4I+G/96spf9+aon/19De/6eXlon///8B////Af///wH///8B////ASESEAXPoqHf346F/8OO
+        if/8+/z/08LT/8+Iif/chnz/4KOb/6+SmP+AX1xpUjEuGxsQDgX///8B////ATAdGweZXle/pnBp0dWC
+        eOe2env/1uD1/5+q7f+hlc3/3YZ7/92Hff+ydG3hdVFSRYFPSZeUW1W1FAsKA////wGBT0h9mmBY/XtM
+        RpWSWVNxnF9Yo7ezuLHZ4/v/k5vj8cJ4cNGmZl5xWjczKYRRS0WNV1CfpGZe/1o2Mm3///8Bl15Wk4RS
+        TOuXXlb5eEpEb5CWnC2yucl/pazl/4WM0ck9MT0dQCciHTgkIAeraWCRhVNM949ZUvWDUEmv////AX5N
+        SBuFUkzJkF9a/7W11e3d5v7/5O7+/7K89f+WoPL/lZrt/457qv+EU07jdElCu4dUTf+MV1D3f09Jif//
+        /wEmGBcNDwkICZ52e4e0rdb/1tzz/+Pt/f++yPf/t8Hy/6Kl5/+iqPb/hXSY/3hWX+l0SEJVYT03Nf//
+        /wH///8BRyonNa9rY2N/Uk3/tKSj/6KPkP/i7P7/5vD+/6aHhf+WZV7/xsPI/3lgdv+GYWv9RCsoIf//
+        /wH///8B////AV45NVGqaF/pgmt+/3Zxb/9pZHH/zK64/7awwv9wa23/KhoY/3dxdP+DXWb/iFRN/3ZK
+        RFv///8B////Af///wGJVE2TpGZf/7d9hP94XGn/z4iH/59hWP+pmbn/x3px/2A7Nv+deIr/ilpX/4pW
+        T/9xR0Bz////Af///wH///8Bn2Faw6RnYv/BeHL/k2Nm/9qEev+NWFH/v4WO/9qFe/+YXlb/s3h8/5Zd
+        Vv+KVk//cEVAaf///wH///8B////AaVlXc2ybWX/z4J5/59lXv/bjYT/m2Re/9SFfv/IenH/ll5X/7x0
+        bP+dYVn/i1dQ/1Y2MTv///8B////Af///wHAioOJ4K2k/9+wqP/UnpT/6bqy/82Tiv/nr6f/y5CH/8aG
+        fv+1dm3/n2Nb/4FQSt8TDgwF////Af///wH///8BfGZhFeWyq+fXkIb/1YV7/819c//IenH/2oV7/7hx
+        aP/Sf3b/wnhv/5ZeVv1qQj1P////Af///wH///8B////Af///wGkY1st1IF3196Ifv/chnz/3IZ8/9uG
+        fP/dh33/3Yd9/8B2bfl2SkRt////Af///wH///8B////Af///wH///8B////AUsrKAe6cWlfzX10sc9+
+        deXXg3n1z3514cR3bp9vRT8t////Af///wH///8B////Af///wEAAP//AAD//wAA//8AAP//AAD//wAA
+        //8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//AAD//wAA//8AAP//KAAAACAAAABAAAAAAQAgAAAA
+        AACAEAAAAAAAAAAAAAAAAAAAAAAAAP///wH///8B////Af///wH///8BV1dXKdPO2/1saLP/u4WO//TR
+        y//Unpf/uJyY//r2+f/ey9f/0JCO/9uCeP/dh37/6Kmi/+7Oyv/BnJX/aE9q/1tZpv/SxdL/9vX1/8S5
+        uONSNjM5////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wExMzEJrKS96Zlu
+        jv/zy8T/5qih/816cf++pKH//v3+/+zf5//VtsL/046J/92GfP/chXr/4JCH/+q1rv/GrKj/cFNr/6KY
+        wf/07/L/tqem2UAlIjH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wGUcHy55LSx/+apov/chHr/zX1z/8Oqp///////+/j6/9/I1v/StcD/1IV+/92GfP/dh33/3IN5/+en
+        oP/Zu7f/g2Vy/8e5wf+UeXbJKhMRH////wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8BIRIQEb2Gg8fyyMP/3IR6/9yGfP/NfHP/r5WY//j4+f/+/v7/4dXf/7u22P+xka7/24Z8/92H
+        ff/dh33/3IZ8/+WknP/QsrP/oXt8/31TUK8gExMLRCYkFVYzMVMbEA4R////Af///wH///8B////Af//
+        /wH///8B////AYtVTk+WXFTbpnx3xdWSivPeh33/3od9/899c/+afYz/4ezz/9LZ7P+ps+z/nqnx/5ee
+        5/++h5b/3od8/92Hff/dh33/3YV7/9iJgP+ugH77iW53aWlAPV1zR0FPd0dBcZhdVtVbOTVF////Af//
+        /wH///8B////Af///wEwHRsbr2tj1Y5YUf2LVU/XiVROubRuZqfahHv12IJ4/5Vtdf/k8P7/wsz1/5+q
+        6f+Xoe//lKDx/5yPw//ehXn/3Yd9/96Hff/fiH3/r2tj9XtLRJc7JB8RdEZBPZRcVN13SkS/sm1l9YBP
+        SssUCwoJ////Af///wH///8BekxDO3FFPqG1b2b9hlNN/4NSS+VgOzc9TS8sE1UzL0W+c2vDo2Re97ar
+        sO/d5u/x4ev8/7rF9v+XovH/j5fk/8l/e//dh3z9xHhv3ZZcVak8JyI3IRQTBQoGBgP///8BjVZPZ5Rc
+        Vfezbmb/mmBY/1ExLX9JLCkn////Af///wGhYltvfU1HpappYfuGU03/gFBJzW1BPGO2cGe7i1VPsVc1
+        MVmMVE17dlFMVZ6kqpHv+P7/2uX8/6Sw9f99frrLpGNbwa5qYYV0SEIzQiwhDzggHg90RkJbl11Xl2xD
+        PndcODNFll1V2appYP+aYFj/YTs2i2A6Nn////8B////AaxpYmuOWFDNjVdQ24hVTv+JVE7zrmtj9YVS
+        TNdLLio1////Af///wE6PT0JbXOFdbK45f+oruH/nKXp/252sXv///8B////Af///wH///8B////AUgv
+        KgmiZFp7uXFp739PSe2FU0zxoWNc/41YUf10RT+DfExGx////wH///8BiFRNO5pgWN11SkPbhVNM+45Y
+        Uf+aX1j/fEtGpRsSEgtobG9Bpq20dcrT3KfI0ePZp6/r/5GZ4/+Hjtv/bnW0qzg6VjdBJyQ5PSQeQ0Qq
+        JzEtHRkN////AVIyLxupaGDDilZP/4RSTP+TXFX/eUtF3ZVbVauDUUrH////Af///wERCwkFhVJMY4xX
+        UPGHVE3/jVhR/49ZUv+Xg4Xfu8PU1ePs/v/q9P7/6PL+/+Ls/v/CzPf/pa/z/5eh8f+Zo/b/lp7x/4+P
+        1P+LcI3/iFpb/4BPSOlwRkCpUDEtR4xXUMuJVk7/g1JL/4pWT/2IVE7fmF5X92lDPHP///8B////Af//
+        /wE2IB8HektGY35OSM+KVU3/mHZ2/8TK8/+8wP//yM/+/97n/v/k7v7/4uz9/8DK+P+hq/L/lZ/w/5Se
+        8P+VnPX/m6D7/5aa9P+Pisr/iVtb/45XT/9oQTzjdkpE9YdUTf+IVU7/jllS/5BZUv9xRkGhVDQwG///
+        /wH///8B////AQQCAgUHBAQJJxgVBTonMDeqoruzq6Hc/66v9v/N1f7/3uj+/+Tu/v/j7f3/srz0/6Cq
+        8f+irfL/pK70/5+n+f+bn/3/nJ78/5GY7/+CdZ7/hmqB/4JVVP9ZNjLZdEhDn3pMRqltRD6HTDArR///
+        /wH///8B////Af///wH///8BKRoYLQwIBhH///8BlltTWa9vadm1oq//w8PW/8vK2P/i7Pn/5O7+/+Ls
+        /f/V3/v/0937/9Pe+v/CzOr/razT/6Gi0v+8wfn/oKr2/4Jsi/+Kgrb/jHym/3NIRMslFhUHKhkXCR4O
+        DAP///8B////Af///wH///8B////ATYgHhU5IiBRLhsaB5VaVGe8c2r/dE1I/9fY2v+nhX//o3Zw/8rH
+        zf/j7v7/4+39/+Tu/v/o8v7/xLi5/7V+d/+ugHj/t3Zs/9bT0P/GyeL/gnms/4dXVP+Geqf/hllY+ycY
+        FiX///8B////Af///wH///8B////Af///wH///8BXTcyL00tKUGYXVY7xnlw34lWT/9CNDP/3tzb/3NZ
+        Vv9dQ0D/vbvE/9/q/v/h6/3/4+7+/+n0/v+nlpX/d1FM/3FKRf+DVVD/vbSz/769vf9SUXj/il1g/4NX
+        Wf+LWFT/TzIvX////wH///8B////Af///wH///8B////Af///wFWNDBZZz46M6xpYbOoaF//imZt/1FQ
+        Zf+kpaP/rKKg/zMjIf+aobP/09ny/9LN3v+2qbX/xs3g/4uLjP+Mf33/YDk0/xYMC/+mpqb/bmlp/2pQ
+        YP+HYWv/iVZO/4ZUTf92SkSdGhEQBf///wH///8B////Af///wH///8B////AWU9OH1VMzA5w3du9ZNa
+        UP+QepX/n3yQ/0M7Of9DQUH/OTlH/52Tqv/SmZv/u3p0/52Biv++yer/a2l0/z03Nv8eERD/EhER/1pd
+        Yf9tV2L/m2Vl/4JdZ/+LVk//hFJM/39PSLk4JCAT////Af///wH///8B////Af///wH///8Bh1NMnWI8
+        N23Bd27/jFZO/56Anf/Lf3r/b0U//1lTbf+tjaX/2YR7/8Z5b/+OVk3/m42n/7W34v/KgHv/k1hS/ysa
+        GP8pGhf/ZVlw/7uNnv+WXln/gFhc/4xXT/+HVE7/e01GxzEcGB3///8B////Af///wH///8B////Af//
+        /wGmZV6zhFFKkbpzaf+IWVf/tICO/750a/+HVlL/kICm/9eHgf/giH3/n2Ja/4lSSf+WjrX/v5Sn/9+G
+        e//eiH3/p2Zf/4RQSP+OdI3/x4eN/45ZU/+GV1b/i1dP/4lWT/95TEXJOyYYIf///wH///8B////Af//
+        /wH///8B////AbJsZMeJU02xwHVs/4RYWf/Gf37/tm9m/4dXU/+cdIT/4oh7/9aCef+OWFH/ilVM/5yF
+        qP/Xh4P/3Yd9/96Hff+iZF3/kVlQ/5l1iv/Ifnn/kVtT/5deVv+JVk//i1dQ/3hLRMUxHhsb////Af//
+        /wH///8B////Af///wH///8Bq2hgz5NaU8nIe3H/hVZT/8x/ef+6cmr/iVdR/6Brbv/iiX7/z391/5Rc
+        VP+KWFT/rX+R/92Hff/eh33/0H92/6BjW/+MWFL/rniB/711bP+VXVX/m2BY/4lWT/+LV1D/dUlDty8e
+        GxH///8B////Af///wH///8B////Af///wGeYFm/pWVd5dSCeP+MV1H/0H52/8l6cf+OWFH/nmJd/+KJ
+        fv/NfHP/n2FZ/4ZXVf/Efn7/34d8/9yGfP+4cWj/oWNb/4ZWU//Mf3j/r2xj/5lfV/+cYVn/ilZP/41Y
+        Uf9kPjmNHhIRA////wH///8B////Af///wH///8B////AZ1hWZWua2P514F4/5FZUv/MgHf/2Y2E/6hu
+        Zf+mbGT/5p6U/9iSif+2eG//kl9a/9GGf//eiX7/1oF3/7ZvZ/+PWVL/o2Re/9OBd/+iZFz/p2df/5hf
+        V/+LV1D/jFdQ/0EpJVn///8B////Af///wH///8B////Af///wH///8Bp2tkT8CAePHiqaH/z5WL/9al
+        nf/vxb7/4Kyj/8OHfP/txb7/7cO9/+Kwp//EiX//6b+4/+3AuP/kr6b/xYh+/6BoYP/QiH//xXpx/5Rc
+        VP+7c2r/jllR/4xXUP96TUbpEw4MEf///wH///8B////Af///wH///8B////Af///wFkTkof16ykx+i9
+        tf/nuLD/ypSK/+zCu//pvbX/w4h9/+Kvp//psKj/3Z+W/7F2bf/in5b/5KCX/9iXjv+pcWj/wIF5/+eo
+        oP/BhX3/u3tz/6ppYv+JVk//i1dQ/2Y/Opf///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wGDa2ZP8ca/+e/Evf/XnZT/15iP/+KUiv+6dGv/v3Rr/92Fe//Zg3n/qmhg/9mEev/fh33/sm1k/6Jk
+        XP/chXv/znxz/61qYv/Ng3r/nGNb/5BaU/98TUfHRCknJ////wH///8B////Af///wH///8B////Af//
+        /wH///8B////ARgVFAfEmJKj5J6U/dyJf//UgHf/3YZ8/9mEe/++dWz/24Z8/92Hff/Adm3/1oN5/9mE
+        e/+1cGf/1oN5/9uGfP/Dd27/1IF4/7tzav+jZV3/ilZP+1EyLksHBQUD////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////AVcwLBW3b2eP3Yd999+Ifv/dh33/3Yd9/9uGfP/chnz/3Yd9/9uG
+        e//bhXv/2YR6/9yGfP/dh33/3IZ8/96Hff/ZhXv/w3hu/4hVTulnQDpn////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////AUYtKw+waWJ90n926eOKgP/dh33/3Yd9/92H
+        ff/dh33/3Yd9/92Hff/dh33/3Yd9/92Hff/dh33/3od9/9B/dv+RWlPrXzw2WUUqJwv///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wFLKygbrmpii89+
+        dcnXg3rz3Yd9/+GJf//fiH7/3od9/96Hff/giH7/4Il//9uFe/vIenHdfU5HjT8oJCP///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wFLLiwFd0hDIa9qYlGsaWGDsmxku8J2btvQf3Xrz3516b90bNWybGWvrGhgbXdJQzUwHRwH////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACgAAAAwAAAAYAAAAAEA
+        IAAAAAAAgCUAAAAAAAAAAAAAAAAAAAAAAAD///8B////Af///wH///8B////Af///wH///8B////AV5e
+        Xkv39fL/npO0/05XwP+DXYP/55WF//3u7P/329j/ml9X/8S3tf//////7eDo/9G4x//Kh4P/3oJ2/9uB
+        dv/bgXf/45mR//XRzf/98fD/2rq0/5FbT/9YPE//TlSu/2hnuv/Ou8P/9fT0//39/f/y7e3/VDk2sf//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////ATU2NR/r5OH1hYPF/2xUj//hkIH//e/s/+7Ev//ihXr/oV5V/8rEwv//////+fT3/9/J
+        2P/QuMX/zoaA/+CGe//dh33/3IN5/9uAdf/jmZH/9tXR//Hm5P+ne3D/Yj1G/01Rqf+qnMX/7uXl/+3u
+        7v/d1dT/TjAtn////wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////ASYoJQW0rLTTdmqn/8h5df/95eD/7cC7/9p+c//jiX//omFa/87J
+        yP///////////+fW4P/extf/zLC6/9ODev/fh3z/3Yd9/92Hff/cg3n/2390/+uwqf/58O//tI6E/2M9
+        Sf9oY6X/6dnk///////VyMf/OR8ch////wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wFwbH2lrnF8//bDuv/z1dL/24B2/92G
+        fP/jioD/o2Nb/9POzf////////////fx9f/cxNL/3snZ/8ujqf/cg3f/3od9/92Hff/dh33/3Yd9/9t/
+        dP/km5P/++7u/7eSi/9cOEj/oZOy//////+6pqP/LhQSaf///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wFuUml35JqP//rq
+        6P/fj4b/3IR6/92Hff/jioD/o2Nb/9bQzv/////////////////n1N//4cXS/86+z/+3iJH/4YZ5/92H
+        ff/dh33/3Yd9/92Hff/bgXb/45iP//rs7P+7nJr/eE9Q/6WKjv+EWFP/HhEQQf///wH///8BOCMhBf//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////ASES
+        ECeeWlLD/9nV/+u8tv/bf3T/3Yd9/92Hff/jioD/oWBZ/6efrP/x8vT//v39/////v/u6ev/wrjP/6au
+        5P+YoeH/yIGB/+KIe//dh33/3Yd9/92Hff/dh33/24J3/+KUiv/22tr/yKqw/5dnZP+EWFbxJRkbEf//
+        /wH///8BRSclV1w4NY0bEA4l////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8Bc0ZBeZ1fWPWfaWPd59DN6eeRh//eh3z/3Yd9/92Hff/jioD/pmJa/5eQq//g7PL/2t/m/9LX
+        5P+1vub/pbHw/5+r8/+Xp/j/nIu5/92Edv/eh33/3Yd9/92Hff/dh33/3Yd9/9yDef/hiX7/y5WS/7iU
+        mP+ghZKtaEVJN0InJEEiExIV////AYxUTbWYXlfzPSUhYf///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wFdOTNtyXxy/4FRSvtPMS5vlGBaw7tyaf/eiH7/5o2C/96Hff/iioD/smlf/4t/
+        l//t+v//4+3+/8LN+f+fqvT/m6Xx/5ei8P+Xo/L/jp3t/7uBi//jiHr/3Yd9/92Hff/dh33/3Yd9/9+I
+        fv/mjIH/tW1j/3pKQu9CKiMtMR0aPYtVT8uMV1DvUTItlTojIEvDeG/1jVdR/zIiIVH///8B////Af//
+        /wH///8B////Af///wH///8B////ATAdHD3Bdm7ppWdf/3pMR/uSWVL9llxV/zwkIm9RMjBRsWxk0eaM
+        gv/ojYP/wXNn/35kcv/k8f//3ef//6237f+lr+H/maTt/5Wg8f+Vn/D/k6L4/5aJvP/cg3b/3od9/92H
+        ff/dh33/44qA/96Iff+ybmb/ZD45z2Y/Ojf///8B////AS0bGBOfYlrVnmNb/3JHQuW1bmftsG1l/3BF
+        QN8UCwoT////Af///wH///8B////Af///wH///8BZEA1fXJEP7HLfHL7kltU/4BQSv+PWVL/aUI9z///
+        /wH///8B////AVk2MmfIenHn24V7/3pMSv+5tMD/8/7//+fy///o8vz/ytT5/6Ou8/+VoPD/lqDz/4uX
+        5v+9e3z/4ol8/+KKgP/ojYP/xnlw/4ZTTd8/KSR1DAgHC////wH///8B////Af///wE0Hx07s25m+4ZU
+        Tf+ybWX/wHZu/4ZUTf9QMCyVIBMSNf///wH///8B////Af///wEpGRcVoGJb51QzL4PAdmz/kltU/4BQ
+        Sf+SXFT/Qyckff///wFHLCktVDQwT00qJ0E/JSNBlltVucN4bf+IUkvlc3J0pdXf6PHp8///5O7+/8bR
+        +f+gq/L/lKDz/5GNy/+6eHb/6Y2B/8x9c/mCUEu3PiofW081Kg////8B////AT0lIwkFAwMJNiEfA///
+        /wH///8BllxUwZVdVv+nZ1//vHRr/41YUf9OMCyFdkhDtQ0IBx////8B////Af///wGLVU83tW9n/Usv
+        K3uxbWX1k1xV/4BQSv+MWFH/OiIgXYhSS4/KfHP7sW5l/4NRS9tMLyxrGgwLHUopJlk6JSIh////AYGH
+        i6X5////6vX//9vl/f+xvPb/mKX4/0c+V4mITkOxg09IhUMoJSv///8B////Af///wH///8BOCAeQ4JP
+        SqWiZF3niFRO01s4NJ8cEhAzZDw3c6JlXf+mZl7/rmxj/49aUv9CKCVriVJMvUYrKIP///8B////Af//
+        /wF2SEMxxnpx/1s4M5+UW1TVlF1V/4JRS/+CUUv9i1VO0cd6cf+aYFj/WDcztxEJCQ3///8B////Af//
+        /wH///8B////AXB2gZvS2fT/vsTp/8XN8v+0v/n/nKf1/xkdMD////8B////Af///wH///8B////Af//
+        /wH///8BNR0cA0owKxN5TEF11YJ4/7FtZf9/UEr3ZT86v5JaU/+qaWH/l15W/45ZUv82HhtdmFtTx2VA
+        Or3///8B////Af///wEXDg8NsGxk54hVTelvRD6xlF1V/4ZUTf+CUUv/sGxk/5lfWP+FUkz7IxAQMf//
+        /wH///8B////Af///wEtMDIRQ0ZGMXB1lbuGitT/dXnH/3V4xP98gMv/gIfR/yIlOSn///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8BcERAd8B2bf+RWlP/hFNM/4dUTv+lZV7/ildQ/4NS
+        S/c9JCJTvXRr82Y/OsP///8B////Af///wH///8BcEZAhapqYf9xSELfckhC64tXUP+DUkv/omRc/5Fb
+        VP99TEbpBQAAAxUYFwtFSUlJjJKXjbC3v8HM1N3l4Or2/ePt///Ezvr/qLP2/5ym8f+Rmej/hY3a/2Bn
+        nK06QWRbNSgwQUYoIF00HhdnUzQwXTojIUEtHRkb////Af///wH///8BMh8eN7JuZf+KV1D/h1VO/4JR
+        S/+PWlP/kFpT/1w6NbV/TUibvHRr/1MzL6H///8B////Af///wH///8BEQsJD49YUsuXX1f/ekxG/YVU
+        Tf+JVk//m2BZ/41WTv97TkfvcHJzkb7Iz9fo8v//7/r//+75///r9f//5/H//+Dr/v/L1fn/sbv1/6Cq
+        8v+YovH/mKL0/52o/f+apPn/j5Xf/4p/sP+KZXL/iVNI/4tVS/+AUErvZ0E6vTciH13///8BOSMgP51i
+        Wf+KV0//iFVO/4FRSv+MWFH/glFL9YJQSr2paGD9kVtT/zMjHlP///8B////Af///wH///8B////ATYg
+        HxuCT0q/mV9Y/49aUv+LV1D/jFZP/4xdV//Avsr/3uf//9LZ///R2f//3eb+/+Tu/v/l7/7/5O7+/+Hr
+        /f/O2Pr/sLr1/5+p8v+XofD/lZ/w/5Wf8P+VnvP/l5/5/5eh//+TnPf/iIC3/4VcYv+NVUr/kltU/5Fb
+        U/9WNTGrVjYxpZJbVP+NWFH/glJL/4ZTTf+MWFH/jldQ+5deV/+TXFX/Yj04uwMDAgX///8B////Af//
+        /wH///8B////Af///wEjExMFVDMvc3hLRduMV1H/h09D/6ueqv/K1f//sbT//6+x//+7wP7/0dj+/+Ls
+        /v/l7/7/5O7+/+Pt/v/K1Pr/p7H0/5ym8f+VoPD/lJ7w/5We8f+VnPX/lpv5/6Gj/P+anP7/maH//5GY
+        6v+EYnD/i1NH/49YUP+EU0z/Qyon/4hWT/+IVU7/g1JL/49ZUv+PWlL/klxU/4xXUf9iPTmzKBcXFf//
+        /wH///8B////Af///wH///8B////Af///wH///8B////AScYFgsrGBRBSzlPabvE4ue4u/v/oJvw/6iq
+        +//Axf//0tr+/+Lr/v/l7/7/5O7+/+Pt/v+4wvb/l6Hw/5eh8P+XofD/maPw/5qj8f+Yn/b/l5r6/5ma
+        /f+jo/7/m578/4+X7P+Gicj/gllc/4VWU/+PV0z/YTw4/0gtKuFyR0HfgVFL835PSO92SUPbWzk0pTwn
+        Ik3///8B////Af///wH///8B////Af///wH///8B////AQQCAhEHBAQh////Af///wH///8BTD5iE7qU
+        oeOhdo3/p6Pc/83W///Z5f//4uz//+Tu/v/l7/7/5e/+/+Hr/f/Ezvj/r7n0/7fB9v+5w/b/usX4/7vG
+        /P+0v///qLH//6Cm//+VmPr/kpj4/42U5P97ZoH/hIK5/5Ca5/+DaoX/lFlP/0wuK48QCAgJMR4dHyYW
+        FBkeDgwH////Af///wH///8B////Af///wH///8B////Af///wH///8B////AS0dG1sRCwkX////Af//
+        /wFXNzRRxndp5aNdUf+ljo//8Pb8/7Corv+7q7P/1Nzo/+jz///l7/7/5O7+/+Ls/v/h6/3/4uz+/+Pt
+        /v/l7///2eX3/77F2P+wrMH/o5q1/6Chv//W2/r/x8z4/5up/v+Fd6L/hVVR/42O0f+RnvH/iF1f/2pA
+        OcP///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BHRISJUAn
+        JGn///8B////AUYqJ13chnz9q2lg/3dQTf/R1Nj/29za/5pjW//OioL/nn97/+Tw+v/k7///5O7+/+Pt
+        /f/k7v7/5vD+/+jz///d5uv/mXRv/8eEfP/Jl4//3ZOH/6RiV//Ozcj//////7O67/+Lk+H/hlVP/4VX
+        Vv+LlN//h2uB/4JOQvUVDAsh////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8BRyonaykYFj3///8BLxwaP92HffmwbWX/e0tE/zcsK//m6uv/zsLB/3xUT/9XQ0H/n3t2/9vl
+        8v/j7v//4+3+/+Tu/v/k7v7/5O7+/+z3///FyMv/tG1l/7GIgv9dSkf/h2xo/9GGff+snZv//////5eY
+        nf9pdLj/iGl8/41RQf+BZHf/f2J0/5JZTv80IR5h////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wEiDQwFaT45lwgEAw0DAgILtm9n18t9c/+JVk7/aUVB/ycrLP//////npWU/0Ql
+        If9KLCj/aFdV/+Hq+v/e6f//3+n9/+Hr/v/k8P//4ez+/+74//+4trj/ZDo1/1U7OP+JUEn/TTEt/3ZK
+        Rf+WiIf//////6GgnP8fJ0P/iXmh/4tUSP+JVEz/fE5I/5NcVf9YODSl////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wEyHhwpaUA7nf///wFPMS1p542D/5NcVP+IUkn/iXyS/yEo
+        NP/BwcD/uLm5/5yLif8+Ih7/PT07/9Tc8f/a5f//2Oj//9jm/v/Dv8//vb/Q/9bf7/+ioqH/eXV0/4x4
+        df+HUUr/Qigl/woDAv+Mi4v/+fn5/0ZGRf8+LDX/hnyq/4pVTf+NWFD/glJL/4pWUP90SUPZHREQB///
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wFMLSldYzw4i////wGzbWXRxnpw/4VS
+        Sv+IWlj/n6jf/1NMYf9FREH/zM/P/7Gjof8XBQD/MTdA/7jH6//Gy+j/x668/8eRkf+SXVf/wMPa/7O9
+        1v9SVFj/y9DR/4NycP9WMCv/GxAP/wAAAf+qq6v/Y2Zl/zokJf+gYVj/fGyP/4laWf+MV0//iVZP/4JR
+        S/+EUkv3GhERIf///wH///8B////Af///wH///8B////Af///wH///8B////Af///wFwRT+NYDs3czgh
+        HyXbhnz/oGNb/4hSR/+IboL/op/W/8R5cv83Ih//GB0d/wAAAP8kJzT/i5O6/7WQnf/Wh4D/3YJ2/6Fe
+        U/+HXl3/w83x/8LP9f+EhJr/JBgW/wMEBP8TDAv/AAAA/yMkJP9JS0n/KDBG/62Bjv+yaVv/eF5x/4Zc
+        X/+MVk7/jFhR/4FQSv+IVU7/QCklP////wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wGMVk+zRywoYWA6NmPch33/k1xU/4pTSP+Ee6P/woyc/9Z/cv97TEb/NB4a/0RJZv+PlMT/wISH/9+C
+        dP/kiX7/rWtj/4RPRv+Obnb/vMr8/7O+7P/Ahon/vG9l/0stKv8AAAD/AAAA/w8MC/80Jir/jZbO/82K
+        jf+oZVj/eldg/4NaXf+MV07/jFhR/4RSTP+JVk//LBoZU////wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wGua2PNQyonYYNQSpPRgHf/lVxV/4VWUv+OfaL/4IqC/7ZwZv+IVEz/iFlX/5Kc
+        3f++jJz/5Yd3/+KKgP/GenH/h1VO/4pSR/+Pd4v/rcD//7eSpv/ihXb/34h+/9eDef+ZXVf/VzYy/29D
+        O/+HY27/m5nQ/9iEe/+bX1X/flZY/4RYWv+MV0//jFhQ/4dUTv+GVE7/OyIYXf///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wHFeG/bTC8rcaBiWq3KfXP/mV5V/39YW/+ie4//6It+/6Vn
+        X/+JVEz/hV5j/5eOwP/chXr/34h9/9+Ifv+eYlr/h1RN/4pSR/+NgqX/pKTa/9eCeP/fh33/3od9/+OL
+        gP/MfXT/lFxV/5JZTv+EZ3r/po2y/9uCdP+SWlP/g1RS/4tZVv+LV0//i1dQ/4pWUP+EU03/PCkYX///
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wHUgXjfSC0pi55gWr3Pf3X/nGBW/3hV
+        XP+0eoD/5Yp+/6BjW/+LVUz/gVxj/6eEn//jiHn/34h+/9WCef+OWFH/jFhR/4lSSP+IhbX/uoyh/+OG
+        eP/dh33/3Yd9/+KKgP+paWH/m2BZ/45WS/9/a4X/woqZ/898b/+QWlP/kFpT/5heV/+JVk//i1dQ/4tX
+        UP+EU0z/LBoYVf///wH///8B////Af///wH///8B////Af///wH///8B////Af///wHRgHbdYDs3raFi
+        W8XXhHr/nmFY/3dSV/+/fHv/4ol+/6FjXP+MV07/f1ha/7B8h//kiX3/4Il//8t8c/+OWFH/lFxU/4dV
+        Tv+Lf6r/1YeD/9+IfP/dh33/3oh+/9iEev+bYFn/pGVe/4dTSv+GbYj/3IqH/7hxZ/+TXFT/mmBX/5xh
+        Wf+IVU//i1dQ/4tXUP+BUUr/QSklQ////wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wG9dGvNf05I06JjW8vhiX//n2Na/3lPTf/Fe3b/4Il+/6tqYv+QWVL/f1NR/7F0dv/kin//4Yl//8R5
+        cP+WXVb/mF5W/4JXVv+aepT/4ol8/92Hff/dh33/4oqA/8B2bf+jZV3/nWFY/4FUUf+dcoD/4ol9/6do
+        YP+QWlP/oGNb/5lgWP+JVk//i1dQ/41YUf96S0b7IBUTJf///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wGcX1expWVe9aBiWtPqj4T/pmdf/35PSv/Je3T/4Il+/7pyav+UXFX/gFFL/7Fv
+        av/ki4D/4Yl//8R4b/+gY1v/mV5V/35WV/+weoP/5Il9/92Hff/dh33/4Il//6dnX/+wbGT/jVhP/35U
+        VP/Ffnv/z35z/6RmXf+KVk//sm1l/5NcVf+KVk//i1dQ/45ZUv9sQz7fHhIRC////wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wFzRkCHxXlw/55hWunqj4T/r2xk/39QSf/GeG//4Id9/8h4
+        b/+aXlb/fE5I/6tnYP/jh3z/4IV7/8R2bP+oZV3/ml5W/3lQUf+/eXf/4oh8/92GfP/fiH7/0H91/6ho
+        YP+nZ1//g1JM/5RdWf/jioD/unJq/6JlXP+NWFH/v3Vs/4pXT/+LV1D/i1dQ/49ZUv9UNTCx////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wFJLyxN04J3/59hWvvliX//vHBo/39P
+        SP+9eHD/55iO/9qVjP/Ag3r/n2Vc/7J6cv/qq6L/6Kif/9makv/IioH/snZt/45dWP/OiIH/4o+F/92I
+        fv/hh33/vXJp/7NtZv+NWFH/hFJM/8N3bv/eiH7/unNq/5BaU/+lZl7/uXJp/4ZUTf+LV1D/jFhR/4tX
+        UP8zIR1t////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wEfFRQTxnlw67Jv
+        Z//hnJT/4qig/7l6cP/MmpL/88rD/+7Fvv/purL/yIR4/8KKgf/ux8D/8MjC/+zAuf/nt67/1pqQ/7p+
+        df/kvLb/78O8/+y8tP/qsqr/05aN/7Z3bv+LV0//l1xU/9+Fe//UgHb/r2xk/4JSS//Je3L/omRc/4dV
+        Tv+LV1D/j1lS/3lNRvcTDgwj////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8BjWtmoeizqv/dtKz/9c3H/9ackf/BiH7/7sW+/+/Evf/vxb7/z5OI/75/dP/nvbb/8cnC/+7F
+        vv/swrr/15+V/8CEef/qwLj/78O8/+7Evf/twrr/4rKn/8mIfP+6fHL/06Oc/+ytpf/akIb/kVlS/6Fi
+        Wf/SgHf/i1dQ/4pXUP+LV1D/kltU/1EyLq////8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8BKSQiN+3Cuv3ourL/8Ma//+m7s/++gHX/3bGp//LKw//yy8T/4K6l/7Z3
+        bP/Yopr/6q6l/+Wimv/lnZT/xIF4/5dgWf/cjoT/4JCG/9+OhP/hkIb/rnBn/4pXUP+rbWX/56CX/+us
+        pP/Ql4//pW9m/9+Yj/+yb2f/hVNM/4tXUP+OWVL/hFJL/xYODDv///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////AYtybaP+0cn/7cO8//HJw//erKP/xZCH/+uz
+        q//loJf/4ZKJ/5hfV/+1bmX/4Yd8/9yDef/fhXv/y3tx/5NbVP/Zg3r/3YZ8/9+Hff/Sf3X/h1RN/5Vc
+        Vf/Xg3n/4YZ8/9V/df+PV1D/xnty/96Tiv+cZl7/mV9X/4pXUP+TXFX/SCwpn////wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////ARgVFBnWsKnl+c3G/+q3
+        r//noZj/wnhv/817cf/ehXr/4Yd9/8V5cP+hZFz/4Il//92Hff/eh33/24Z8/6BjW//Wg3n/3oh+/+KK
+        gP+ramH/nWJa/9yGff/giX//34h//6hoYP+0b2b/6I2D/6hmXv+iZF3/mF9Y/5BaU/9xRkDbBwUFE///
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wFORkVB15SL9+SLgP/cg3n/3od9/9eDev/dh33/3Yd9/+GJf/+8dGv/0oB3/9+Ifv/dh33/4Yl//7py
+        av/QgHb/4Yl//9B/dv+ta2P/3oh9/9+Ifv/eiH7/0H92/8N3bv/ki4H/zX10/7JuZf+zb2b/i1dQ/4NS
+        S/UXDg01////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8BVzAsV9eDeffmjYL/3Yd9/96Hff/dh33/3Yd9/96Hff/ch33/2IR6/96H
+        ff/dh33/3oh9/9iEev/Xg3r/34h+/9OBd//bhnz/34h+/92Hff/dh33/3IZ8/+CJf//dh33/zn91/8x9
+        c/+RW1T/ilZP/TwlIVX///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////AUctKz/Cdm7f6o+E/+CJf//dh33/3Yd9/92H
+        ff/dh33/3od9/92Hff/dh33/3Yd9/96Iff/eh33/3Yd9/96Ifv/eh33/3Yd9/92Hff/dh33/3Yd9/92H
+        ff/giX//2IR6/5xiWv9/UEnzRSonV////wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wE3Hh0ZjVJNn9yG
+        fP/pjoT/4Il//92Hff/dh33/3Yd9/92Hff/dh33/3Yd9/92Hff/dh33/3Yd9/92Hff/dh33/3Yd9/92H
+        ff/dh33/3Yd9/+GJf//dh33/omVd/2tEPtEmGRY5////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////AUssKT2ZXlev1YJ4+eeNg//ljIL/4Il//92Hff/dh33/3Yd9/92Hff/dh33/3Yd9/92H
+        ff/dh33/3Yd9/92Hff/fiH7/6I6D/92Hff+RWlPtRy4pgRUNDA3///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8BSy8tLX9NSH2wa2PJ0X929+SLgf/pjoT/6Y6E/+SL
+        gf/hin//4Yl//+KKgP/mjIL/6Y6E/+eNg//chnz/qGdf1VIzL30wHhwd////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8BPyklJ1k2
+        Mld5SUSLllxVtbVvZ9HGeXDfynty4cN3bt2tamLLk1lTqXNGQXdRLSo7EwkIB////wH///8B////Af//
+        /wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af///wH///8B////Af//
+        /wEAAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAA
+        AAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA
+        //8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAA
+        AAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA
+        //8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAA
+        AAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8AAAAAAAD//wAAAAAAAP//AAAAAAAA
+        //8AAAAAAAD//wAAAAAAAP//AAAAAAAA//8=
+</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Anime Girl Generator</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Name" xml:space="preserve">
+    <value>fileToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;fileToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openModelToolStripMenuItem.Name" xml:space="preserve">
+    <value>openModelToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;openModelToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveModelToolStripMenuItem.Name" xml:space="preserve">
+    <value>saveModelToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;saveModelToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exportPictureToolStripMenuItem.Name" xml:space="preserve">
+    <value>exportPictureToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;exportPictureToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Name" xml:space="preserve">
+    <value>exitToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;exitToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;languageToolStripMenuItem.Name" xml:space="preserve">
+    <value>languageToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;languageToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;englishToolStripMenuItem.Name" xml:space="preserve">
+    <value>englishToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;englishToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;frenchToolStripMenuItem.Name" xml:space="preserve">
+    <value>frenchToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;frenchToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;interrogationToolStripMenuItem.Name" xml:space="preserve">
+    <value>interrogationToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;interrogationToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Name" xml:space="preserve">
+    <value>aboutToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;aboutToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colAccessoryName.Name" xml:space="preserve">
+    <value>colAccessoryName</value>
+  </data>
+  <data name="&gt;&gt;colAccessoryName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colAccessoryColor.Name" xml:space="preserve">
+    <value>colAccessoryColor</value>
+  </data>
+  <data name="&gt;&gt;colAccessoryColor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colAccessoryLuminance.Name" xml:space="preserve">
+    <value>colAccessoryLuminance</value>
+  </data>
+  <data name="&gt;&gt;colAccessoryLuminance.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Name" xml:space="preserve">
+    <value>toolStripStatusLabel1</value>
+  </data>
+  <data name="&gt;&gt;toolStripStatusLabel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;colorDialog.Name" xml:space="preserve">
+    <value>colorDialog</value>
+  </data>
+  <data name="&gt;&gt;colorDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColorDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;savePngDialog.Name" xml:space="preserve">
+    <value>savePngDialog</value>
+  </data>
+  <data name="&gt;&gt;savePngDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;saveAgmDialog.Name" xml:space="preserve">
+    <value>saveAgmDialog</value>
+  </data>
+  <data name="&gt;&gt;saveAgmDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openAgmDialog.Name" xml:space="preserve">
+    <value>openAgmDialog</value>
+  </data>
+  <data name="&gt;&gt;openAgmDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

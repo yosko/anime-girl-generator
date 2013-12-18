@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="tabHair.Text" xml:space="preserve">
+    <value>Cheveux</value>
+  </data>
+  <data name="lblHairLuminance.Text" xml:space="preserve">
+    <value>Luminosité (cheveux)</value>
+  </data>
+  <data name="lblHairColor.Text" xml:space="preserve">
+    <value>Couleur (cheveux)</value>
+  </data>
+  <data name="lblHairBack.Text" xml:space="preserve">
+    <value>Cheveux (derrière)</value>
+  </data>
+  <data name="lblHairFront.Text" xml:space="preserve">
+    <value>Cheveux (devant)</value>
+  </data>
+  <data name="tabFace.Text" xml:space="preserve">
+    <value>Visage</value>
+  </data>
+  <data name="lblEyesLuminance.Text" xml:space="preserve">
+    <value>Luminosité (yeux)</value>
+  </data>
+  <data name="lblEyesColor.Text" xml:space="preserve">
+    <value>Couleur (yeux)</value>
+  </data>
+  <data name="lblFace.Text" xml:space="preserve">
+    <value>Visage</value>
+  </data>
+  <data name="lblEyes.Text" xml:space="preserve">
+    <value>Yeux</value>
+  </data>
+  <data name="tabBody.Text" xml:space="preserve">
+    <value>Corps</value>
+  </data>
+  <data name="lblClothesLuminance.Text" xml:space="preserve">
+    <value>Luminosité (vêtements)</value>
+  </data>
+  <data name="lblClothesColor.Text" xml:space="preserve">
+    <value>Couleur (vêtements)</value>
+  </data>
+  <data name="lblBodyLuminance.Text" xml:space="preserve">
+    <value>Luminosité (corps)</value>
+  </data>
+  <data name="lblBodyColor.Text" xml:space="preserve">
+    <value>Couleur (corps)</value>
+  </data>
+  <data name="lblBody.Text" xml:space="preserve">
+    <value>Corps</value>
+  </data>
+  <data name="lblHead.Text" xml:space="preserve">
+    <value>Tête</value>
+  </data>
+  <data name="tabAccessories.Text" xml:space="preserve">
+    <value>Accessoires</value>
+  </data>
+  <data name="lblDragDropHelp.Text" xml:space="preserve">
+    <value>Double-cliquer pour ajouter/supprimer des accessoires.
+Glisser/déposer pour ordonner les accessoires.</value>
+  </data>
+  <data name="lblAccessoriesSelected.Text" xml:space="preserve">
+    <value>Accessoires sélectionnés</value>
+  </data>
+  <data name="lblAccessories.Text" xml:space="preserve">
+    <value>Accessoires disponibles</value>
+  </data>
+  <data name="tabParam.Text" xml:space="preserve">
+    <value>Paramètres</value>
+  </data>
+  <data name="btBgColor.Text" xml:space="preserve">
+    <value>Couleur de fond</value>
+  </data>
+  <data name="about.Text" xml:space="preserve">
+    <value>Anime Girl Generator
+Edition occidentale par Yosko.
+Version </value>
+  </data>
+  <data name="about.Title" xml:space="preserve">
+    <value>A propos</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>A propos</value>
+  </data>
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>Anglais</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>Quitter</value>
+  </data>
+  <data name="exportPictureToolStripMenuItem.Text" xml:space="preserve">
+    <value>Exporter l'image</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>Fichier</value>
+  </data>
+  <data name="frenchToolStripMenuItem.Text" xml:space="preserve">
+    <value>Français</value>
+  </data>
+  <data name="interrogationToolStripMenuItem.Text" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>Langue</value>
+  </data>
+  <data name="lblAccessoryColor.Text" xml:space="preserve">
+    <value>Couleur (accessoire)</value>
+  </data>
+  <data name="lblAccessoryLuminance.Text" xml:space="preserve">
+    <value>Luminosité (accessoire</value>
+  </data>
+  <data name="lblBgColor.Text" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="openModelToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ouvrir un modèle</value>
+  </data>
+  <data name="saveModelToolStripMenuItem.Text" xml:space="preserve">
+    <value>Enregistrer un modèle</value>
+  </data>
+  <data name="generateTime.Text" xml:space="preserve">
+    <value>Image générée en </value>
+  </data>
+  <data name="btRemoveAllAccessories.Text" xml:space="preserve">
+    <value>Retirer tous les accessoires</value>
+  </data>
+  <data name="chkBackTransparent.Text" xml:space="preserve">
+    <value>Fond transparent</value>
+  </data>
+</root>
